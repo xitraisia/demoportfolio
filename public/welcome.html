@@ -7,15 +7,18 @@ div.scrollmenu a:hover {
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   font-family: Arial;
   background-color: pink;
 }
+
 .header {
   text-align: center;
   padding: 32px;
 }
+
 .row {
   display: -ms-flexbox; 
   display: flex;
@@ -23,6 +26,7 @@ body {
   flex-wrap: wrap;
   padding: 0 4px;
 }
+
 /* Create four equal columns that sits next to each other */
 .column {
   -ms-flex: 25%; /* IE10 */
@@ -30,11 +34,13 @@ body {
   max-width: 25%;
   padding: 0 4px;
 }
+
 .column img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
 }
+
 /*Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
@@ -43,6 +49,7 @@ body {
     max-width: 50%;
   }
 }
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
@@ -53,7 +60,7 @@ body {
 }
 </style>
 <body>
-<div id="root"></div>
+
 <div class="header">
     <title>Home</title>
     <nav>
@@ -85,6 +92,7 @@ body {
     </nav>
     <h1>A Glimpse Into My Creative Space</h1>
 </div>
+
 <div class="row"> 
     <div class="column">
       <img src="IMG_1874.png" style="width:100%">
@@ -111,5 +119,7 @@ body {
       <img src="IMG_1869.png" style="width:100%">
     </div>
   </div>
+
 </body>
 </html>
+

@@ -1,0 +1,57 @@
+/* title of the home page */
+h1{
+   color: black; 
+   font-size: 20px;
+   text-align: center;
+}
+
+/* the about title */
+h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* the quote */
+h3{
+    text-align: center;
+    font-style: italic;
+}
+/* main paragraph for the about page */
+p{
+    color: black;
+    font-size: 17px;
+    text-indent: 30px;
+    column-count: 2;
+}
+
+/* picture in the about page */
+img{
+    position: absolute;
+    left: 500px;
+}
+body{
+    background-color: pink;
+}
+/* the search bar */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: palevioletred;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+form{
+    position: absolute;
+    right: 100px;
+}
